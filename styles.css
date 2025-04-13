@@ -1,0 +1,59 @@
+
+#HeroSection{
+    background-image: url("asset/HeroBanner.png");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: ; */
+}
+
+.herotitel{
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    text-align: center;
+}
+
+.herotitel h1{
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0.5em 0;
+    padding: 0.5em;
+    color: #19c784;
+}
+
+.herotitel h3{
+    font-size: 2rem;
+    margin: 0.5em 0;
+    padding: 0.5em;
+}
+
+@media screen and (max-width: 618px) {
+    #HeroSection{
+        height: 60vh;
+    }
+
+    .herotitel div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .herotitel h1{
+        font-size: 0.8rem;
+        margin: 0.2em 0;
+        padding: 0.2em;
+    }
+    .herotitel h3{
+        font-size: 0.8rem;
+        margin: 0.2em 0;
+        padding: 0.2em;
+    }
+    
+}
