@@ -5,6 +5,10 @@ nav{
     z-index: 1000;
 }
 
+hr{
+    width: 70%;
+    margin: 2rem;
+}
 h1{
     font-size: 2rem;
     font-weight: bold;
@@ -49,7 +53,7 @@ h1{
     padding: 0.5em;
 }
 
-#AboutUs, #Services{
+#AboutUs, #Services, #Pricing{
     background-image: url("asset/gray-wood-texture-background_35956-2469.jpg");
     background-size: cover;
     background-position: center;
@@ -58,6 +62,10 @@ h1{
     margin-bottom: -15px;
     margin-top: -15px;
     
+}
+
+#Services, #Pricing{
+    margin-top: -20px;
 }
 
 .About{
@@ -134,6 +142,74 @@ h1{
     background-size: cover;
     background-position: center;
 }
+
+#pcard1,#pcard2, #pcard3{
+    height: 28rem;
+    border-radius: 0;
+    position: relative;
+    padding: 20px;
+    background: linear-gradient(to bottom, green 50%, transparent 50%);
+    background-position: left;
+    background-size: 4px 100%; /* 4px wide border */
+    background-repeat: no-repeat;
+    background-color: white ;
+
+}
+
+#pcard1:hover,#pcard2:hover, #pcard3:hover{
+    background: white; 
+    border-left: 4px solid green; 
+    transform: scale(1.08);
+
+}
+
+.priceinfo{
+    justify-items: center;
+}
+
+.priceinfo h1{
+    color: #212c0d;
+    font-size: 5rem;
+    display: inline-block;
+    text-shadow: 4 12px 16px #1c1717;
+    text-align: center;
+    border-radius: 35px;
+    background-color: rgba(240, 255, 255, 0.34);
+}
+
+.priceinfo p{
+    color: #556B2F;
+    font-size: 2rem;
+    text-shadow: 4 12px 16px #333333;
+    text-align: center;
+    width: 90%;
+    border-radius: 35px;
+    background-color: rgba(240, 255, 255, 0.34);
+    margin: auto;
+    margin-bottom: 8%;
+}
+
+.pcard-body h5{
+    margin-top: 20%;
+    margin: 0;
+    padding: 0;
+    padding-left: 2rem;
+
+}
+.pcard-body p{
+    margin: 0;
+    padding: 0;
+    padding-left: 2rem;
+}
+
+.pcard-title, .pcard-text{
+    margin: auto;
+}
+
+#pcard2{
+    padding-right: 5rem;
+}
+
 
 
 @media screen and (max-width: 618px) {
