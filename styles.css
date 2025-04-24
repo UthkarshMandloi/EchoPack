@@ -1,3 +1,9 @@
+h1{
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0.5em 0;
+    padding: 0.5em;
+}
 
 #HeroSection{
     background-image: url("asset/HeroBanner.png");
@@ -31,6 +37,39 @@
     font-size: 2rem;
     margin: 0.5em 0;
     padding: 0.5em;
+}
+
+#AboutUs{
+    background-image: url("asset/gray-wood-texture-background_35956-2469.jpg");
+    background-size: cover;
+    background-position: center;
+    }
+
+.About{
+    background-color: #f0f0f0;
+    margin: auto;
+    margin-bottom: 3.5%;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    align-items: center;
+    
+}
+
+.About h1{
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0.35%;
+    padding: 0.35%;
+    text-align: center;
+}
+
+.About h3{
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 0.35% 0;
+    padding: 0.35%m;
 }
 
 @media screen and (max-width: 618px) {
